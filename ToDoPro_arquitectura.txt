@@ -1,0 +1,24 @@
+ToDoPro/
+├── index.html
+├── assets/
+│   ├── css/
+│   │    └── styles.css
+│   └── icons/
+├── js/
+│   ├── app.js          # Punto de entrada
+│   ├── config.js       # Config global
+│   │
+│   ├── models/         # Estructura de datos
+│   │    └── Task.js
+│   │
+│   ├── services/       # Lógica (negocio)
+│   │    ├── taskService.js
+│   │    └── storageService.js
+│   │
+│   ├── ui/             # Interfaz
+│   │    ├── render.js
+│   │    ├── events.js
+│   │    └── filters.js
+│   │
+│   └── utils/          # Helpers
+│        └── helpers.js
