@@ -156,3 +156,8 @@ button:active {
 .nav-list a:active {
     transform: scale(0.95);
 }
+
+#lista-tareas li.completed {
+    background-color: rgba(2, 134, 0, 0.522);
+    color: white;
+}
